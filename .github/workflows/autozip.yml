@@ -14,3 +14,4 @@ jobs:
         with:
           files: arch/
           dest: ${{ github.workspace }}/hyperfluent-arch.tar.gz
+      - uses: stefanzweifel/git-auto-commit-action@v5
