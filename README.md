@@ -24,23 +24,24 @@ An all-new fluent, modern, and clean GRUB theme.
 Even while maintaining the same shared fluent design language, each variant of  HyperFluent has a distinct look and feel, tailored around the subject of the theme.
 
 **OS / Distros**
-- Arch Linux [**⎋**]()
-- Ubuntu [**⎋**]()
-- Redhat [**⎋**]()
-- Fedora [**⎋**]()
-- NixOS [**⎋**]()
-- endeavourOS [**⎋**]()
-- Debian [**⎋**]()
-- Linux Mint [**⎋**]()
-- Manjaro [**⎋**]()
-- OpenSUSE [**⎋**]()
-- OpenSUSE (Tumbleweed) [**⎋**]()
-- macOS [**⎋**]()
-- Windows (Dark) [**⎋**]()
-- Windows (Light) [**⎋**]()
+- Arch Linux 
+- Ubuntu 
+- Redhat 
+- Fedora 
+- NixOS 
+- endeavourOS 
+- Debian 
+- Linux Mint 
+- Manjaro 
+- OpenSUSE 
+- OpenSUSE (Tumbleweed) 
+- macOS 
+- Windows (Dark) 
+- Windows (Light) 
+- Gentoo
 
 **Other**
-- Generic [**⎋**]()
+- Generic 
 
 ***
 
@@ -79,3 +80,7 @@ Even while maintaining the same shared fluent design language, each variant of  
 |                                                      **Windows (Dark)**                                                     |                                                      **Windows (Light)**                                                     |
 |:-------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|
 | <img src="https://github.com/Coopydood/HyperFluent-GRUB-Theme/assets/39441479/198e446b-65ce-4957-a829-9c5dfbe1408a" width="250"></img> | <img src="https://github.com/Coopydood/HyperFluent-GRUB-Theme/assets/39441479/c985fe0a-3f09-432a-a211-504cd78c32e9" width="250"></img> |
+
+|                                                   **Gentoo**                                                  |
+|:-----------------------------------------------------------------------------------------------------------------:|
+| <img src="https://github.com/Coopydood/HyperFluent-GRUB-Theme/assets/39441479/c3817bb4-5f7d-4792-902e-8725f22ef4e8" width="250"></img> |
