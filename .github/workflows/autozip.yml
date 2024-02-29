@@ -16,11 +16,15 @@ jobs:
         with:
           files: arch/
           dest: ./zip/hyperfluent-arch.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: debian/
+          dest: ./zip/hyperfluent-debian.tar.gz
       - uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
         with:
           # The arguments for the `git add` command (see the paragraph below for more info)
           # Default: '.'
-          add: './zip/hyperfluent-arch.tar.gz'
+          add: './zip/*'
       
           # The name of the user that will be displayed as the author of the commit.
           # Default: depends on the default_author input
