@@ -13,4 +13,4 @@ jobs:
       - uses: vimtor/action-zip@v1.1
         with:
           files: arch/
-          dest: hyperfluent-arch.tar.gz
+          dest: ${{ github.workspace }}/hyperfluent-arch.tar.gz
