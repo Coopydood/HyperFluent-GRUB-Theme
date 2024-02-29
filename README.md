@@ -1,4 +1,4 @@
-<a href="https://coopydood.github.io/HyperFluent-GRUB-Theme"><img src="https://github.com/Coopydood/HyperFluent-GRUB-Theme/assets/39441479/0adde68f-115b-410b-a84e-42686cdf9dea" alt="ultimate-macOS-KVM" width="500"/></a>
+<a href="https://coopydood.github.io/HyperFluent-GRUB-Theme"><img src="https://github.com/Coopydood/HyperFluent-GRUB-Theme/assets/39441479/bd1c6c5f-0db6-416f-b5b7-70f5d534dc5a" alt="ultimate-macOS-KVM" width="400"/></a>
 
 ### v1.0
 
