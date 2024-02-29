@@ -20,15 +20,72 @@ jobs:
         with:
           files: debian/
           dest: ./zip/hyperfluent-debian.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: endeavouros/
+          dest: ./zip/hyperfluent-endeavouros.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: fedora/
+          dest: ./zip/hyperfluent-fedora.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: gentoo/
+          dest: ./zip/hyperfluent-gentoo.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: linux-generic/
+          dest: ./zip/hyperfluent-linux-generic.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: linux-mint/
+          dest: ./zip/hyperfluent-linux-mint.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: macos/
+          dest: ./zip/hyperfluent-macos.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: manjaro/
+          dest: ./zip/hyperfluent-manjaro.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: nixos/
+          dest: ./zip/hyperfluent-nixos.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: opensuse-generic/
+          dest: ./zip/hyperfluent-opensuse-generic.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: opensuse-tumbleweed/
+          dest: ./zip/hyperfluent-opensuse-tumbleweed.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: redhat/
+          dest: ./zip/hyperfluent-redhat.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: ubuntu/
+          dest: ./zip/hyperfluent-ubuntu.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: windows-light/
+          dest: ./zip/hyperfluent-windows-light.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: windows-dark/
+          dest: ./zip/hyperfluent-windows-dark.tar.gz
+          
       - uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
         with:
           # The arguments for the `git add` command (see the paragraph below for more info)
           # Default: '.'
-          add: './zip/*'
+          add: './packaged/*'
       
           # The name of the user that will be displayed as the author of the commit.
           # Default: depends on the default_author input
-          author_name: CPYDBot
+          author_name: CPYD Bot
       
           # The email of the user that will be displayed as the author of the commit.
           # Default: depends on the default_author input
@@ -64,7 +121,7 @@ jobs:
       
           # The message for the commit.
           # Default: 'Commit from GitHub Actions (name of the workflow)'
-          message: 'Zip files'
+          message: 'AutoZip theme folders'
       
           # If this input is set, the action will push the commit to a new branch with this name.
           # Default: ''
