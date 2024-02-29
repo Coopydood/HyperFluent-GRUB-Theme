@@ -13,7 +13,7 @@ An all-new fluent, modern, and clean GRUB theme.
 ***
 
 <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/33c8ce96-132a-479b-9403-b15d377fbe40" alt="Arch Linux theme" width="1400"/>
-<p align="center"><i>Arch Linux, one of the several OS-themed variants.</i></p>
+<p align="center"><i>Arch Linux, one of the several OS-themed variants. I use Arch btw.</i></p>
 
 ***
 
