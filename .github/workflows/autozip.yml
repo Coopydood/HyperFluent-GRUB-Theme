@@ -15,67 +15,67 @@ jobs:
       - uses: vimtor/action-zip@v1.1
         with:
           files: arch/
-          dest: ./zip/hyperfluent-arch.tar.gz
+          dest: ./packaged/hyperfluent-arch.tar.gz
       - uses: vimtor/action-zip@v1.1
         with:
           files: debian/
-          dest: ./zip/hyperfluent-debian.tar.gz
+          dest: ./packaged/hyperfluent-debian.tar.gz
       - uses: vimtor/action-zip@v1.1
         with:
           files: endeavouros/
-          dest: ./zip/hyperfluent-endeavouros.tar.gz
+          dest: ./packaged/hyperfluent-endeavouros.tar.gz
       - uses: vimtor/action-zip@v1.1
         with:
           files: fedora/
-          dest: ./zip/hyperfluent-fedora.tar.gz
+          dest: ./packaged/hyperfluent-fedora.tar.gz
       - uses: vimtor/action-zip@v1.1
         with:
           files: gentoo/
-          dest: ./zip/hyperfluent-gentoo.tar.gz
+          dest: ./packaged/hyperfluent-gentoo.tar.gz
       - uses: vimtor/action-zip@v1.1
         with:
           files: linux-generic/
-          dest: ./zip/hyperfluent-linux-generic.tar.gz
+          dest: ./packaged/hyperfluent-linux-generic.tar.gz
       - uses: vimtor/action-zip@v1.1
         with:
           files: linux-mint/
-          dest: ./zip/hyperfluent-linux-mint.tar.gz
+          dest: ./packaged/hyperfluent-linux-mint.tar.gz
       - uses: vimtor/action-zip@v1.1
         with:
           files: macos/
-          dest: ./zip/hyperfluent-macos.tar.gz
+          dest: ./packaged/hyperfluent-macos.tar.gz
       - uses: vimtor/action-zip@v1.1
         with:
           files: manjaro/
-          dest: ./zip/hyperfluent-manjaro.tar.gz
+          dest: ./packaged/hyperfluent-manjaro.tar.gz
       - uses: vimtor/action-zip@v1.1
         with:
           files: nixos/
-          dest: ./zip/hyperfluent-nixos.tar.gz
+          dest: ./packaged/hyperfluent-nixos.tar.gz
       - uses: vimtor/action-zip@v1.1
         with:
           files: opensuse-generic/
-          dest: ./zip/hyperfluent-opensuse-generic.tar.gz
+          dest: ./packaged/hyperfluent-opensuse-generic.tar.gz
       - uses: vimtor/action-zip@v1.1
         with:
           files: opensuse-tumbleweed/
-          dest: ./zip/hyperfluent-opensuse-tumbleweed.tar.gz
+          dest: ./packaged/hyperfluent-opensuse-tumbleweed.tar.gz
       - uses: vimtor/action-zip@v1.1
         with:
           files: redhat/
-          dest: ./zip/hyperfluent-redhat.tar.gz
+          dest: ./packaged/hyperfluent-redhat.tar.gz
       - uses: vimtor/action-zip@v1.1
         with:
           files: ubuntu/
-          dest: ./zip/hyperfluent-ubuntu.tar.gz
+          dest: ./packaged/hyperfluent-ubuntu.tar.gz
       - uses: vimtor/action-zip@v1.1
         with:
           files: windows-light/
-          dest: ./zip/hyperfluent-windows-light.tar.gz
+          dest: ./packaged/hyperfluent-windows-light.tar.gz
       - uses: vimtor/action-zip@v1.1
         with:
           files: windows-dark/
-          dest: ./zip/hyperfluent-windows-dark.tar.gz
+          dest: ./packaged/hyperfluent-windows-dark.tar.gz
           
       - uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
         with:
