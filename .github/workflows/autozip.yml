@@ -76,6 +76,14 @@ jobs:
         with:
           files: windows-dark/
           dest: ./packaged/hyperfluent-windows-dark.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: alt-linux/
+          dest: ./packaged/hyperfluent-alt-linux.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: zorin-os/
+          dest: ./packaged/hyperfluent-zorin-os.tar.gz
           
       - uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
         with:
