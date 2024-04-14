@@ -37,7 +37,8 @@ Even while maintaining the same shared fluent design language, each variant of  
 - Windows (Dark) 
 - Windows (Light) 
 - Gentoo
-- Alt Linux
+- ALT Linux
+- Zorin OS
 
 **Other**
 - Generic 
@@ -80,7 +81,7 @@ Even while maintaining the same shared fluent design language, each variant of  
 |:-------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|
 | <img src="https://github.com/Coopydood/HyperFluent-GRUB-Theme/assets/39441479/198e446b-65ce-4957-a829-9c5dfbe1408a" width="250"></img> | <img src="https://github.com/Coopydood/HyperFluent-GRUB-Theme/assets/39441479/c985fe0a-3f09-432a-a211-504cd78c32e9" width="250"></img> |
 
-|                                                      **Gentoo**                                                     |                                                      **Alt Linux**                                                     |
+|                                                      **Gentoo**                                                     |                                                      **ALT Linux**                                                     |
 |:-------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|
 | <img src="https://github.com/Coopydood/HyperFluent-GRUB-Theme/assets/39441479/c3817bb4-5f7d-4792-902e-8725f22ef4e8" width="250"></img> | <img src="https://github.com/Coopydood/HyperFluent-GRUB-Theme/assets/39441479/5533becf-b207-4906-9c95-7f6f996d43d1" width="250"></img> |
 
