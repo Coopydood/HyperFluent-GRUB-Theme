@@ -2,8 +2,9 @@ name: AutoZip
 
 on:
   workflow_dispatch:
-  release:
-    types: [published]
+  push:
+    paths-ignore:
+          - "packaged/**"
 
 jobs:
   zip-files:
