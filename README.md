@@ -41,9 +41,26 @@ Even while maintaining the same shared fluent design language, each variant of  
 - Zorin OS
 
 **Other**
-- Generic 
+- Generic
 
 ***
+
+## Quick Installation Guide
+
+- Pick a variant from [Pling](https://www.pling.com/p/2133341)
+- After downloading the archive, copy the contents to: `/usr/share/grub/themes/fluent` (with `sudo` or `su`)
+- Edit the `/etc/default/grub` using (`nano`,`vi`,`vim`,`neovim`, or any text editor) with `sudo` or `su`.
+  - Uncomment `# GRUB_THEME = "..."` and replace the path with `/usr/share/grub/themes/fluent/theme.txt`
+- Now, run this command in the terminal,
+
+```sh
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+(If you're on Arch that is installed manually, replace `/boot` with `/YOUR_ESP_PARTITION`, but if you didn't change it, you're alright)
+  
+- `reboot`! done, now reboot to see your new awesome-looking GRUB theme :)
+
 
 ## Gallery
 
