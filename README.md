@@ -46,6 +46,7 @@ Even while maintaining the same shared fluent design language, each variant of  
 ***
 
 ## Quick Installation Guide
+### Written by [neoapps](https://github.com/neoapps-dev)
 
 - Pick a variant from [Pling](https://www.pling.com/p/2133341)
 - After downloading the archive, copy the contents to: `/usr/share/grub/themes/fluent` (with `sudo` or `su`)
@@ -61,6 +62,8 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
   
 - `reboot`! done, now reboot to see your new awesome-looking GRUB theme :)
 
+> [!TIP]
+> An unofficial AUR package of each theme variant is maintained by [Eugenenoble2005](https://github.com/Eugenenoble2005)!
 
 ## Gallery
 
