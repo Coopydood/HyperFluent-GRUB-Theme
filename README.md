@@ -50,7 +50,8 @@ Even while maintaining the same shared fluent design language, each variant of  
 
 - Pick a variant from [Pling](https://www.pling.com/p/2133341)
 - After downloading the archive, copy the contents to: `/usr/share/grub/themes/fluent` (with `sudo` or `su`)
-- Edit the `/etc/default/grub` using (`nano`,`vi`,`vim`,`neovim`, or any text editor) with `sudo` or `su`.
+- Edit `/etc/default/grub` using (`nano`,`vi`,`vim`,`neovim`, or any text editor) with `sudo` or `su`.
+  - Comment `GRUB_TERMINAL_OUTPUT="console"` by prepending a `#` to the start of the line
   - Uncomment `# GRUB_THEME = "..."` and replace the path with `/usr/share/grub/themes/fluent/theme.txt`
 - Now, run this command in the terminal,
 
@@ -59,7 +60,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 (If you're on Arch that is installed manually, replace `/boot` with `/YOUR_ESP_PARTITION`, but if you didn't change it, you're alright)
-  
+
 - `reboot`! done, now reboot to see your new awesome-looking GRUB theme :)
 
 > [!TIP]
