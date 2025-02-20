@@ -48,19 +48,23 @@ Even while maintaining the same shared fluent design language, each variant of  
 ## Quick Installation Guide
 ### Written by [neoapps](https://github.com/neoapps-dev)
 
-- Pick a variant from [Pling](https://www.pling.com/p/2133341)
-- After downloading the archive, copy the contents to: `/usr/share/grub/themes/fluent` (with `sudo` or `su`)
-- Edit the `/etc/default/grub` using (`nano`,`vi`,`vim`,`neovim`, or any text editor) with `sudo` or `su`.
+1. Pick a variant from [Pling](https://www.pling.com/p/2133341)
+2. After downloading the archive, copy the contents to: `/usr/share/grub/themes/fluent` (with `sudo` or `su`)
+3. Edit `/etc/default/grub` using (`nano`,`vi`,`vim`,`neovim`, or any text editor) with `sudo` or `su`.
+  - If required, change `GRUB_TERMINAL_OUTPUT="console"` to `GRUB_TERMINAL_OUTPUT="gfxterm"`
   - Uncomment `# GRUB_THEME = "..."` and replace the path with `/usr/share/grub/themes/fluent/theme.txt`
-- Now, run this command in the terminal,
+4. Run the appropriate command in the terminal to apply the above changes
 
-```sh
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-```
+  ```sh
+  sudo grub-mkconfig -o /boot/grub/grub.cfg #Debian/Ubuntu
+  sudo grub2-mkconfig -o /boot/grub2/grub.cfg #Fedora/CentOS/RHEL/SUSE
+  ```
 
-(If you're on Arch that is installed manually, replace `/boot` with `/YOUR_ESP_PARTITION`, but if you didn't change it, you're alright)
-  
-- `reboot`! done, now reboot to see your new awesome-looking GRUB theme :)
+> [!IMPORTANT]
+> If you are using an Arch system that was installed manually, replace `/boot` with `/YOUR_ESP_PARTITION`.
+> If you didn't change this, there is no need to change anything.
+
+5. Run `reboot` to reboot the system and test your new awesome-looking GRUB theme! :)
 
 > [!TIP]
 > An unofficial AUR package of each theme variant is maintained by [Eugenenoble2005](https://github.com/Eugenenoble2005)!
