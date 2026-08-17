@@ -39,6 +39,10 @@ Even while maintaining the same shared fluent design language, each variant of  
 - Gentoo
 - ALT Linux
 - Zorin OS
+- AnduinOS
+
+> The AnduinOS variant adapts the default wallpaper and logo from the
+> [GPL-3.0-licensed AnduinOS project](https://github.com/Anduin2017/AnduinOS).
 
 **Other**
 - Generic
@@ -109,13 +113,12 @@ Even while maintaining the same shared fluent design language, each variant of  
 |:-------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|
 | <img src="https://github.com/Coopydood/HyperFluent-GRUB-Theme/assets/39441479/c3817bb4-5f7d-4792-902e-8725f22ef4e8" width="250"></img> | <img src="https://github.com/Coopydood/HyperFluent-GRUB-Theme/assets/39441479/5533becf-b207-4906-9c95-7f6f996d43d1" width="250"></img> |
 
-|                                                      **Zorin OS**                                                     |
-|:-------------------------------------------------------------------------------------------------------------------:|
-| <img src="https://github.com/Coopydood/HyperFluent-GRUB-Theme/assets/39441479/72999177-e869-490e-a46c-7deb23f6cbec" width="250"></img> 
+|                                                      **Zorin OS**                                                     |                                                      **AnduinOS**                                                     |
+|:-------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|
+| <img src="https://github.com/Coopydood/HyperFluent-GRUB-Theme/assets/39441479/72999177-e869-490e-a46c-7deb23f6cbec" width="250"></img> | <img src="anduinos/background.png" width="250"></img> |
 
 ***
 
 <p align="center">
   <img src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/39d78d4b-8ce8-44f4-bba7-fefdbf2f80db" width="10%"> </img>
 </p>
-
