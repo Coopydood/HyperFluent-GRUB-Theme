@@ -19,6 +19,10 @@ jobs:
           dest: ./packaged/hyperfluent-arch.tar.gz
       - uses: vimtor/action-zip@v1.1
         with:
+          files: anduinos/
+          dest: ./packaged/hyperfluent-anduinos.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
           files: debian/
           dest: ./packaged/hyperfluent-debian.tar.gz
       - uses: vimtor/action-zip@v1.1
