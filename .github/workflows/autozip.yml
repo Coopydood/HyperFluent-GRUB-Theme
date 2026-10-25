@@ -85,6 +85,18 @@ jobs:
         with:
           files: zorin-os/
           dest: ./packaged/hyperfluent-zorin-os.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: alpine/
+          dest: ./packaged/hyperfluent-alpine.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: kali-linux/
+          dest: ./packaged/hyperfluent-kali-linux.tar.gz
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: artix/
+          dest: ./packaged/hyperfluent-artix.tar.gz
           
       - uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
         with:

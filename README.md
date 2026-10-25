@@ -39,6 +39,9 @@ Even while maintaining the same shared fluent design language, each variant of  
 - Gentoo
 - ALT Linux
 - Zorin OS
+- Alpine Linux
+- Kali Linux
+- Artix Linux
 
 **Other**
 - Generic
@@ -109,9 +112,14 @@ Even while maintaining the same shared fluent design language, each variant of  
 |:-------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|
 | <img src="https://github.com/Coopydood/HyperFluent-GRUB-Theme/assets/39441479/c3817bb4-5f7d-4792-902e-8725f22ef4e8" width="250"></img> | <img src="https://github.com/Coopydood/HyperFluent-GRUB-Theme/assets/39441479/5533becf-b207-4906-9c95-7f6f996d43d1" width="250"></img> |
 
-|                                                      **Zorin OS**                                                     |
-|:-------------------------------------------------------------------------------------------------------------------:|
-| <img src="https://github.com/Coopydood/HyperFluent-GRUB-Theme/assets/39441479/72999177-e869-490e-a46c-7deb23f6cbec" width="250"></img> 
+
+|                                                   **Alpine Linux**                                                  |                                                     **Kali Linux**                                                  |
+|:-------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|
+| <img src="alpine/background.png" width="250"></img> | <img src="kali-linux/background.png" width="250"></img> | 
+
+|                                                   **Zorin OS**                                                  |                                                     **Artix Linux**                                                  |
+|:-------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|
+| <img src="https://github.com/Coopydood/HyperFluent-GRUB-Theme/assets/39441479/72999177-e869-490e-a46c-7deb23f6cbec" width="250"></img> | <img src="artix/background.png" width="250"></img> | 
 
 ***
 

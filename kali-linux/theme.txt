@@ -1,0 +1,56 @@
+# Main options
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Terminus Regular 16"
+terminal-box: "terminal_box_*.png"
+terminal-left: "6%"
+terminal-top: "27%"
+terminal-width: "42%"
+terminal-height: "61%"
+terminal-border: "0"
+
+# OVERLAP
+#terminal-left: "6%"
+#terminal-top: "39%"
+#terminal-width: "42%"
+#terminal-height: "41%"
+#terminal-border: "0"
+
+# TO THE RIGHT
+#terminal-left: "54%"
+#terminal-top: "25%"
+#terminal-width: "40%"
+#terminal-height: "63%"
+#terminal-border: "0"
+
+# Boot menu
++ boot_menu {
+  left = 7%
+  top = 41%
+  width = 40%
+  height = 65%
+  item_font = "DIN 2014 Regular 23"
+  item_color = "#cccccc"
+  selected_item_color = "#ffffff"
+  icon_width = 75
+  icon_height = 75
+  item_icon_space = 20
+  item_height = 70
+  item_padding = 3
+  item_spacing = 13
+  selected_item_pixmap_style = "select_*.png"
+}
+
+
+# Countdown label
+# You can change the name of default starting OS here
++ label {
+  left = 7%
+  top = 78%
+  align = "left"
+  id = "__timeout__"
+  text = "Booting selected OS in %d..."
+  color = "#cccccc"
+  font = "DIN 2014 Regular 20"
+}
